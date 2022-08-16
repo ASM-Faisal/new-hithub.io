@@ -1,0 +1,154 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/*------------------------------ header css -----------------------------*/
+.navbar{ 
+    background-image:linear-gradient(to right, #bc4ae2, #7a0aa6);
+}
+.navbar img{
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+.navbar span{
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px white;
+}
+.nav-item a{
+    color: white;
+    font-weight: 500;
+    transition: transform .3s, background .5s;
+}
+
+.nav-link:hover{
+    color: gold;
+    transform: rotate(10deg);
+    background: #7a0aa6;
+}
+
+
+.dropdown-menu .dropdown-item{
+    color: tomato;
+}
+/*------------------------------ home css -----------------------------*/
+
+.banner{
+    margin:60px 0 0 0;
+    padding: 50px;
+    color: white; 
+}
+.banner h1{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding: 50px 0px;
+}
+.banner p{
+    text-align: left;
+}
+/*------------------------------ about css -----------------------------*/
+
+.about{
+    background-image:linear-gradient(to right, rgb(66, 241, 230), rgb(226, 136, 240)) ;
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+.about-heading{
+    text-align: center;
+    color: #7a0aa6;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    font-weight: 900;
+    border-bottom: 1px solid red;
+}
+.about-img{
+    text-align: center;
+}
+.about-text h4{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+.about-text ul{
+    text-align: left;
+    color: #7a0aa6;
+    font-size: 18px;
+    padding-left: 80px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+/*------------------------------ services css -----------------------------*/
+.services{
+    padding-top: 60px;
+}
+.services-text img{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.services-text{
+    border-right: 5px solid white;
+    
+}
+.services-btn{
+    margin-left: 25%;
+    background: skyblue;
+    margin-bottom: 30px;
+}
+.services-btn:hover{
+    background-color:#bc4ae2 ;
+}
+/*------------------------------ portfolio css -----------------------------*/
+.portfolio{
+    background-image:linear-gradient(to right, #bc4ae2, #7a0aa6);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+/*------------------------------ testimonial css -----------------------------*/
+.testimonial{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.testimonial .row{
+    text-align: center;
+}
+.testimonial-photo{
+    border: 3px solid #7a0aa6 ;
+}
+
+/*------------------------------ blog css -----------------------------*/
+
+.blog{
+    padding: 60px 0;
+    background-image:linear-gradient(to right, #bc4ae2, #7a0aa6);
+
+}
+/*------------------------------ social media css -----------------------------*/
+.social-media{
+    background: 
+}
+.social-media-icon{
+   margin-left: 25%;
+}
+.social-media-icon img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+/*------------------------------ contact css -----------------------------*/
+.contact{
+    background-image:linear-gradient(to right, #bc4ae2, #7a0aa6);
+}
+.contact a{
+    text-decoration: none;
+    margin-left: 0px;
+}
+.contact a img{
+    margin: 10px 0;
+    border-radius: 50%;
+    border: 2px solid gold;
+    padding: 1px;
+}
+.contact-icon{
+    color: white;
+    margin: 10px;
+}
